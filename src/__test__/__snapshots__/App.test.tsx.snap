@@ -1,0 +1,117 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`toUpperCase 1`] = `
+<DocumentFragment>
+  <div
+    class="w-screen h-screen bg-neutral-950 flex items-center justify-center text-neutral-100"
+  >
+    <div
+      class="w-[280px] bg-neutral-800 p-4 rounded-lg"
+    >
+      <div
+        class="flex flex-col gap-2"
+      >
+        <div
+          class="flex items-center justify-between"
+        >
+          <p
+            class="text-[#AAAAAA] text-[12px]"
+          >
+            Unit
+          </p>
+          <div
+            class=" flex mb-1 w-[140px] h-[36px] bg-[#181818] rounded-[8px]"
+          >
+            <button
+              class="px-4 py-1 flex-1 rounded-lg font-normal text-base transition-all duration-150
+                bg-[#424242] text-white shadow
+              "
+              type="button"
+            >
+              %
+            </button>
+            <button
+              class="px-4 py-1 flex-1 rounded-lg font-normal text-base transition-all duration-150
+                bg-transparent text-neutral-400 hover:bg-[#232323]
+              "
+              type="button"
+            >
+              px
+            </button>
+          </div>
+        </div>
+        <div
+          class="flex items-center justify-between"
+        >
+          <p
+            class="text-[#AAAAAA] text-[12px]"
+          >
+            Value
+          </p>
+          <div
+            class="w-[140px] h-[40px] bg-[#212121] rounded-lg flex items-center justify-between transition-all border border-transparent"
+          >
+            <div
+              class="relative inline-block h-full "
+            >
+              <button
+                aria-label="Decrease"
+                class="w-[36px] cursor-pointer h-full flex items-center justify-center rounded-tl-[8px] rounded-bl-[8px] rounded-br-none rounded-tr-none transition-opacity opacity-40 cursor-not-allowed"
+                disabled=""
+                tabindex="-1"
+              >
+                <svg
+                  fill="none"
+                  height="2"
+                  viewBox="0 0 12 2"
+                  width="12"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M0 0.75C0 0.335786 0.335786 0 0.75 0L11.25 0C11.6642 0 12 0.335786 12 0.75C12 1.16421 11.6642 1.5 11.25 1.5H0.75C0.335786 1.5 0 1.16421 0 0.75Z"
+                    fill="#F9F9F9"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div
+              class="relative flex-1 flex items-center"
+            >
+              <input
+                class="w-full h-full text-[16px] bg-transparent text-white font-normal text-2xl outline-none text-center color-[#F9F9F9] p-2 rounded border-none"
+                inputmode="decimal"
+                type="text"
+                value="0"
+              />
+            </div>
+            <div
+              class="relative inline-block h-full "
+            >
+              <button
+                aria-label="Increase"
+                class="w-[36px] h-full rounded-tr-[8px] rounded-br-[8px] rounded-bl-none rounded-tl-none flex items-center justify-center rounded transition-opacity cursor-pointer hover:bg-[#333] active:bg-[#444]"
+                tabindex="-1"
+              >
+                <svg
+                  fill="none"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  width="12"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.75 0.75C6.75 0.335786 6.41421 0 6 0C5.58579 0 5.25 0.335786 5.25 0.75V5.25H0.75C0.335786 5.25 0 5.58579 0 6C0 6.41421 0.335786 6.75 0.75 6.75H5.25L5.25 11.25C5.25 11.6642 5.58579 12 6 12C6.41421 12 6.75 11.6642 6.75 11.25V6.75H11.25C11.6642 6.75 12 6.41421 12 6C12 5.58579 11.6642 5.25 11.25 5.25H6.75V0.75Z"
+                    fill="#F9F9F9"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
